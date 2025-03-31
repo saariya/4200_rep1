@@ -11,7 +11,7 @@
         <h4>SPOTIFY MUSIC POPULARITY PREDICTOR</h4>
         <nav>
             <ul>
-                <li><a href="sptfy.html">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="plots.html" class="active">Plots</a></li>
                 <li><a href="we.html">About Us</a></li>
             </ul>
@@ -38,42 +38,50 @@
             <!--LINE BREAK-->
             <h2>Duration VS Popularity</h2>
             <a href="plot2.html"><img src="images/daman-plot.png" class="plot-image"></a>
-            <p>
-                <!-- Your detailed text about interests (at least 200 words) -->
-                This plot bla bla</p>
+            <p>This visualization shows the relationship between song duration and popularity, revealing how song length affects listener preference.</p>
             <h3>What this plot does</h3>
             <ul class="plot-list">
-                <li>It’s not just about the food—it’s about the process. </li>
-                <li>Whether it’s a simple recipe or an elaborate feast, cooking lets me unwind, explore new tastes, and share something meaningful with friends and family. </li>
-                <li>It’s my favorite form of self-expression.</li>
+                <li>The majority of popular songs (scoring 50-100 on the popularity axis) tend to have shorter durations, primarily clustering below 15 minutes.</li>
+                <li>There's a clear negative correlation between duration and popularity - as songs get longer (especially beyond 20 minutes), they generally receive lower popularity scores. </li>
+                <li>Extremely long songs (40+ minutes) are rare and typically receive lower popularity scores, though there are a few notable exceptions.</li>
+                <li>The densest concentration of data points is in the 2-5 minute range with high popularity scores, suggesting this may be an optimal song length for audience appeal.</li>
             </ul>
             <!--LINE BREAK-->
+            
 
             <h2>Song Duration Distribution</h2>
             <a href="plot3.html"><img src="images/plot-3.png" class="plot-image"></a>
             <p>
                 <!-- Your detailed text about interests (at least 200 words) -->
-                This plot bla bla</p>
+                This histogram plot shows the distribution of song durations in a music dataset. </p>
             <h3>What this plot does</h3>
             <ul class="plot-list">
-                <li>It’s not just about the food—it’s about the process. </li>
-                <li>Whether it’s a simple recipe or an elaborate feast, cooking lets me unwind, explore new tastes, and share something meaningful with friends and family. </li>
-                <li>It’s my favorite form of self-expression.</li>
+                <li>The vast majority of songs are very short, with the highest concentration (approximately 145 songs) falling in the 0-4 minute range.               </li>
+                <li>The second most common duration is the 4-8 minute range (about 80-85 songs). There's a sharp decline after 8 minutes, with only about 20 songs in the 8-12 minute range. </li>
+                <li>Songs longer than 12 minutes are relatively rare, with counts mostly below 5 per bin. There are occasional longer songs appearing throughout the distribution, with small spikes around 44-48 minutes and 80-84 minutes. There are occasional longer songs appearing throughout the distribution, with small spikes around 44-48 minutes and 80-84 minutes. The overall distribution is heavily right-skewed (or positively skewed), with a long tail extending to longer durations.</li>
             </ul>
             <!--LINE BREAK-->
 
             <h2>Exploring Popularity By Genre</h2>
             <a href="plot4.html"><img src="images/plot-4.png" class="plot-image"></a>
-            <p>
-                <!-- Your detailed text about interests (at least 200 words) -->
-                This plot bla bla</p>
+            <p>This image shows a violin plot representing the popularity distribution for the chosen genre. The visualization combines elements of a box plot and a density plot to show both the statistical summary and the full distribution shape.</p>
             <h3>What this plot does</h3>
             <ul class="plot-list">
-                <li>It’s not just about the food—it’s about the process. </li>
-                <li>Whether it’s a simple recipe or an elaborate feast, cooking lets me unwind, explore new tastes, and share something meaningful with friends and family. </li>
-                <li>It’s my favorite form of self-expression.</li>
+                <li>The chosen genre shows a median popularity score of approximately 22-25, with most songs clustering in the moderate popularity range (15-30). </li>
+                <li>The violin shape reveals an interesting distribution with both a thin tail of highly popular outliers (reaching up to 80) and a small number of very low popularity tracks near 0.</li>
+                <li>The interface includes a dropdown menu that allows users to select and analyze different music genres, with "afrobeat" currently displayed in this view.</li>
             </ul>  
         </section>
+        <section>
+            <h2>Conclusion</h2>
+            <p>
+        From our analysis, we observed several key trends in music popularity. Most songs tend to be short, with a peak duration of 2-4 minutes, and longer songs (over 10 minutes) are rare. Additionally, shorter songs tend to be more popular, as indicated by a negative correlation between duration and popularity—songs under 10 minutes are more likely to have higher popularity ratings.
+        Genre also plays a role in popularity distribution. In the case of alt-rock, the data reveals a bimodal trend, where some songs achieve moderate to high popularity while others remain obscure. Meanwhile, danceability appears to have a slight positive relationship with popularity across acoustic, punk-rock, and progressive-house genres. Punk-rock songs tend to be more common at higher danceability values, whereas progressive-house tracks are more consistently clustered in the mid-range of both metrics.
+        Overall, our findings suggest that shorter, more danceable songs generally perform better in terms of popularity. However, genre-specific trends highlight that other factors, such as niche appeal and audience preferences, also play a significant role in a song’s success.</p></section>
+
+        
+    
+        
     </main>
     
     <!--<footer>
